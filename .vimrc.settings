@@ -1,6 +1,23 @@
+execute pathogen#infect()
 syntax on
 
+" HOW-TO make Vim not such Out of the Box:
 set nocompatible
+set ruler
+set laststatus=2
+set showcmd
+set showmode
+set number
+
+" Search
+set incsearch
+set ignorecase
+set smartcase
+set hlsearch
+
+" Remove useless splash screen:
+set shortmess+=| 
+
 filetype plugin on
 
 " Show line numbers
@@ -11,24 +28,33 @@ set numberwidth=5 " We are good up to 99999 lines
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+
 " Autoexpand tabs to spaces
 set expandtab
+
 " Copy the indentation from the previous line, when starting a new line
 set autoindent
+
 " Be smart when using tabs
 set smarttab
 
 " 1001 undos
 set undolevels=1001
 
-"Jump 5 lines when running out of the screen
+" Jump 5 lines when running out of the screen
 set scrolljump=5
 
-" colorscheme solarized
+" Colorscheme solarized
+syntax enable
 set background=dark
+
+" Setting in case terminal is not set up to use solorized colorscheme
+" let g:solarized_termcolors=256
+colorscheme solarized
 
 " Cyrrillic Support
 set keymap=russian-jcuken
 set iminsert=0
 set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
+
