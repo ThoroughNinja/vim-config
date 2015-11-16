@@ -59,5 +59,7 @@ set imsearch=0
 highlight lCursor guifg=NONE guibg=Cyan
 
 " Reset search highlightning after pressing Esc
-nnoremap <esc> :noh<return><esc>
+" nnoremap <esc> :noh<return><esc>
 
+" Make MacVim to copy into System clipboard
+" set clipboard=unnamed
