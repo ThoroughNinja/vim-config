@@ -63,3 +63,10 @@ highlight lCursor guifg=NONE guibg=Cyan
 
 " Make MacVim to copy into System clipboard
 " set clipboard=unnamed
+
+" Disabe arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
