@@ -73,3 +73,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Folders: swp/backup, swp/swap, swp/undo should be created in advance
+set backupdir=~/.vim/swp/backup//
+set directory=~/.vim/swp/swap//
+set undodir=~/.vim/swp/undo//
