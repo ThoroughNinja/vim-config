@@ -77,3 +77,5 @@ noremap <Right> <Nop>
 set backupdir=~/.vim/swp/backup//
 set directory=~/.vim/swp/swap//
 set undodir=~/.vim/swp/undo//
+" Or use this to completely disable .swp files:
+" set noswapfile
