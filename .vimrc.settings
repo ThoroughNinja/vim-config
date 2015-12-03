@@ -79,3 +79,6 @@ set directory=~/.vim/swp/swap//
 set undodir=~/.vim/swp/undo//
 " Or use this to completely disable .swp files:
 " set noswapfile
+
+" Change behaviour of Tab-completion to be similar bash shell
+set wildmode=longest,list
