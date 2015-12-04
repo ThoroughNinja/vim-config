@@ -41,6 +41,9 @@ set smarttab
 " 1001 undos
 set undolevels=1001
 
+" Expand command history to 200 items
+set history=200
+
 " Jump 5 lines when running out of the screen
 set scrolljump=5
 
