@@ -76,6 +76,11 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Make <C-n> <C-p> in command mode behave the same like <Up>, <Down> = filter
+" history like <Up>, <Down> do.
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+
 " Folders: swp/backup, swp/swap, swp/undo should be created in advance
 set backupdir=~/.vim/swp/backup//
 set directory=~/.vim/swp/swap//
