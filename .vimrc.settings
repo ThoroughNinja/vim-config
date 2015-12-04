@@ -81,6 +81,12 @@ noremap <Right> <Nop>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
+" Map :bn, :bp, :bl, :bf
+nnoremap <silent> [b :bprevious<CR>
+nnoremap <silent> ]b :bnext<CR>
+nnoremap <silent> [B :bfirst<CR>
+nnoremap <silent> ]B :blast<CR>
+
 " Folders: swp/backup, swp/swap, swp/undo should be created in advance
 set backupdir=~/.vim/swp/backup//
 set directory=~/.vim/swp/swap//
