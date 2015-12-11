@@ -96,3 +96,6 @@ set undodir=~/.vim/swp/undo//
 
 " Change behaviour of Tab-completion to be similar bash shell
 set wildmode=longest,list
+
+" Plugins:
+runtime macros/matchit.vim
