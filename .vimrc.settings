@@ -102,5 +102,8 @@ set undodir=~/.vim/swp/undo//
 " Change behaviour of Tab-completion to be similar bash shell
 set wildmode=longest,list
 
+" Disable bell
+set visualbell t_vb=
+
 " Plugins:
 runtime macros/matchit.vim
