@@ -24,6 +24,11 @@ filetype plugin on
 set number
 set numberwidth=5 " We are good up to 99999 lines
 
+" Highlight cursor line
+set cursorline
+" Highlight cursor column
+set cursorcolumn
+
 " Default indent settings
 set shiftwidth=4
 set softtabstop=4
