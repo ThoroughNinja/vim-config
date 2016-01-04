@@ -16,7 +16,10 @@ set smartcase
 set hlsearch
 
 " Remove useless splash screen:
-set shortmess+=| 
+set shortmess+=|
+
+" Allow to switch on another buffer while current is not synchronized
+set hidden
 
 filetype plugin on
 
