@@ -124,3 +124,7 @@ function! s:VSetSearch()
     let @/ = '\V' . substitute(escape(@s, '/\'), '\n', '\\n', 'g')
     let @s = temp
 endfunction
+
+" Remaps & from :s into :&&
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
