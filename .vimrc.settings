@@ -61,13 +61,13 @@ set background=dark
 " Setting in case terminal is not set up to use solorized colorscheme
 " let g:solarized_termcolors=256
 colorscheme solarized
+
 set guifont=Menlo:h12
 
 " Cyrrillic Support
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
-highlight lCursor guifg=NONE guibg=Cyan
 
 " Reset search highlightning after pressing Esc
 " nnoremap <esc> :noh<return><esc>
