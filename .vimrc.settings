@@ -1,7 +1,7 @@
 execute pathogen#infect()
 syntax on
 
-" HOW-TO make Vim not such Out of the Box:
+" HOW-TO make Vim not suck Out of the Box:
 set nocompatible
 set ruler
 set laststatus=2
@@ -68,6 +68,7 @@ set guifont=Menlo:h12
 set keymap=russian-jcukenwin
 set iminsert=0
 set imsearch=0
+highlight lCursor guifg=NONE guibg=Cyan
 
 " Reset search highlightning after pressing Esc
 " nnoremap <esc> :noh<return><esc>
