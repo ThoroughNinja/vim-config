@@ -15,6 +15,9 @@ set ignorecase
 set smartcase
 set hlsearch
 
+" Autocomplete
+set infercase
+
 " Remove useless splash screen:
 set shortmess+=|
 
