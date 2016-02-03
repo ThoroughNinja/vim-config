@@ -42,7 +42,7 @@ set guioptions-=r
 set gcr=n:blinkon0
 
 " Configuration of "invlist"
-set list " Display unprintable characters 
+set list " Display unprintable characters
 set listchars=tab:•\ ,trail:•,extends:»,precedes:« " Unprintable chars mapping
 
 " Default indent settings
