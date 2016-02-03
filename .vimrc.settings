@@ -31,6 +31,12 @@ set numberwidth=5 " We are good up to 99999 lines
 set cursorline
 " Highlight cursor column
 set cursorcolumn
+" Disable scrollbar in MacVim NERDTree
+set guioptions-=L
+" Disable scrollbar in MacVim
+set guioptions-=r
+" Disable cursor blinking in MacVim
+set gcr=n:blinkon0
 
 " Default indent settings
 set shiftwidth=4
