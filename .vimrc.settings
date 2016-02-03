@@ -41,6 +41,10 @@ set guioptions-=r
 " Disable cursor blinking in MacVim
 set gcr=n:blinkon0
 
+" Configuration of "invlist"
+set list " Display unprintable characters 
+set listchars=tab:•\ ,trail:•,extends:»,precedes:« " Unprintable chars mapping
+
 " Default indent settings
 set shiftwidth=4
 set softtabstop=4
