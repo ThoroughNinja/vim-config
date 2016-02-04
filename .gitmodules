@@ -31,3 +31,6 @@
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/todo-txt-vim"]
+	path = bundle/todo-txt-vim
+	url = git@github.com:freitass/todo.txt-vim.git
