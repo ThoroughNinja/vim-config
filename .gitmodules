@@ -34,3 +34,6 @@
 [submodule "bundle/todo-txt-vim"]
 	path = bundle/todo-txt-vim
 	url = git@github.com:ThoroughNinja/todo.txt-vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
